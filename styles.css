@@ -1,0 +1,85 @@
+/*
+Red = #f91c5c rgb(249, 28, 92)
+Green = #87f72f rgb(135, 247, 47)
+Blue = #57d5f7 rgb(87, 213, 247)
+*/
+
+* {
+	box-sizing: border-box;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #57d5f7;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#container {
+	margin: 1rem 1rem 0 1rem;
+}
+
+#logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#logo img {
+	height: 5rem;
+	width: 5rem;
+}
+#logo h1 {
+	display: inline-block;
+	font-size: 3.5rem;
+	margin: 1rem 0 1rem 1rem;
+	white-space: nowrap;
+}
+
+#email a {
+	font-size: 1.5rem;
+}
+
+#intro {
+	font-size: 1.3rem;
+	max-width: 60rem;
+	margin-top: 1rem;
+}
+
+.leftMargin {
+	margin-left: 3rem;
+}
+
+#projectsContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.project {
+	max-width: 30rem;
+	margin: 1rem;
+}
+.project h2 {
+	margin-top: 0;
+}
+.projectContent {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.projectImgLink img{
+	width: 100%;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
