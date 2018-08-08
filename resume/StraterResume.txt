@@ -5,7 +5,7 @@ max.strater@gmail.com
 www.maxstrater.com
 
 ===Technical Skills===
-Javascript (ES6), CSS3, AngularJS, three.js, Agile Development, Perforce, Git, Java, C++
+Javascript (ES6), Node.js, Webpack, Mocha/Chai, CSS3, Agile Development, AngularJS, three.js, Perforce, Git, Java, C++
 
 ===Experience===
 
@@ -17,7 +17,7 @@ Intern (Summer 2011, Summer 2010)
 
 Configurator 360 Ipad Client
 Configurator 360 is a design configurator for the parametric CAD software Inventor
-As a contractor, I was tasked with creating an iPad client for Configurator 360
+I was tasked with creating an iPad client for Configurator 360
 As the lead developer, I followed the project from conception through publishing on the Apple app store and maintenance
 Accomplishments:
 	Using a SOAP web service to exchange data with our cloud server
@@ -42,6 +42,15 @@ Accomplishments:
 	Became a member of a special team tasked with improving the resiliency of cloud workflows
 	Worked on improving offline caching, unified logging, synthetic monitoring, and the thundering herd problem
 	Mentored a college summer intern
+
+Innersource Tracing Library
+Tracing is the process of tagging and following operations as they flow through a distributed system
+In early 2018 I started creating an innersourced tracing library based on OpenTracing
+Accomplishments:
+	Worked to define architecture and structure for the library
+	Wrote most of the core code
+	Designed an automated test suite and integrated it with our Jenkins pipeline
+	Refactored the library to be consumable from Node.js or a browser
 
 ===Education===
 
