@@ -69,6 +69,8 @@ header {
 .project {
 	max-width: 30rem;
 	margin: 1rem;
+	/* IE bug */
+	min-width: 1px;
 }
 .project h2 {
 	margin: 0;
@@ -90,6 +92,8 @@ header {
 }
 .projectImgLink {
 	background-color:#87f72f;
+	/* IE bug */
+	overflow: hidden;
 }
 .projectImgLink img{
 	width: 100%;
@@ -102,4 +106,5 @@ header {
 footer {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 1rem;
 }
