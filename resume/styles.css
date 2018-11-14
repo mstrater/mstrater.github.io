@@ -117,7 +117,7 @@ ul li ul li {
 		display: none;
 	}
 	.printBreak {
-		/* break-inside: avoid was not working :( */
-		margin-top: 5rem;
+		/* break-inside: avoid; was not working :( */
+		margin-top: 1rem;
 	}
 }

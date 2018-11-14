@@ -5,7 +5,7 @@ max.strater@gmail.com
 www.maxstrater.com
 
 ===Technical Skills===
-Javascript (ES6), Node.js, Webpack, Mocha/Chai, CSS3, Agile Development, AngularJS, three.js, Perforce, Git, Java, C++
+Javascript (ES6), Node.js, Webpack, Mocha/Chai, CSS3, Python, Agile Development, AngularJS, three.js, Perforce, Git, Java, C++
 
 ===Experience===
 
@@ -15,23 +15,14 @@ Software Engineer (January 2014 - Present)
 Contractor (November 2012 - January 2014)
 Intern (Summer 2011, Summer 2010)
 
-Configurator 360 Ipad Client
-Configurator 360 is a design configurator for the parametric CAD software Inventor
-I was tasked with creating an iPad client for Configurator 360
-As the lead developer, I followed the project from conception through publishing on the Apple app store and maintenance
+Innersource Tracing Library
+Tracing is the process of tagging and following operations as they flow through a distributed system
+In early 2018 I started creating an innersourced tracing library based on OpenTracing
 Accomplishments:
-	Using a SOAP web service to exchange data with our cloud server
-	Writing an STL file parser to load 3D models into the app
-	Acting as developer, QA, and even designer for a single project
-	Navigating the idiosyncrasies of iOS development and the Apple ecosystem
-
-Configurator 360 Web Client
-After being hired as a full time employee, I integrated into the Agile development process for the Configurator 360 web app
-Assisted in converting the existing Silverlight client to HTML5
-Accomplishments:
-	Prototyped a new UI based on AngularJS that became a major component of our app
-	Used three.js to create a model positioning and rotation tool
-	Worked server side with ASP.NET MVC 5
+	Worked to define architecture and structure for the library
+	Wrote most of the core code
+	Designed an automated test suite and integrated it with our Jenkins pipeline
+	Refactored the library to be consumable from Node.js or a browser using Webpack
 
 Fusion 360
 Fusion 360 is a 3D parametric CAD, CAM, and simulation product
@@ -43,14 +34,23 @@ Accomplishments:
 	Worked on improving offline caching, unified logging, synthetic monitoring, and the thundering herd problem
 	Mentored a college summer intern
 
-Innersource Tracing Library
-Tracing is the process of tagging and following operations as they flow through a distributed system
-In early 2018 I started creating an innersourced tracing library based on OpenTracing
+Configurator 360 Web Client
+After being hired as a full time employee, I integrated into the Agile development process for the Configurator 360 web app
+Assisted in converting the existing Silverlight client to HTML5
 Accomplishments:
-	Worked to define architecture and structure for the library
-	Wrote most of the core code
-	Designed an automated test suite and integrated it with our Jenkins pipeline
-	Refactored the library to be consumable from Node.js or a browser
+	Prototyped a new UI based on AngularJS that became a major component of our app
+	Used three.js to create a model positioning and rotation tool
+	Worked server side with ASP.NET MVC 5
+
+Configurator 360 Ipad Client
+Configurator 360 is a design configurator for the parametric CAD software Inventor
+I was tasked with creating an iPad client for Configurator 360
+As the lead developer, I followed the project from conception through publishing on the Apple app store and maintenance
+Accomplishments:
+	Using a SOAP web service to exchange data with our cloud server
+	Writing an STL file parser to load 3D models into the app
+	Acting as developer, QA, and even designer for a single project
+	Navigating the idiosyncrasies of iOS development and the Apple ecosystem
 
 ===Education===
 
