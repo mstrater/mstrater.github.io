@@ -12,12 +12,21 @@ Blue = #57d5f7 rgb(87, 213, 247)
 html, body {
 	margin: 0;
 	padding: 0;
+	color: #000;
 	background-color: #959595;
 }
 
 a {
-	color: #57d5f7;
+	color: #000;
 }
+a:hover {
+	color: #87f72f
+}
+/* Remove underline in most cases*/
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: solid underline; }
+a:active { text-decoration: none; }
 
 #container {
 	display: flex;
@@ -48,6 +57,17 @@ header #links {
 	align-self: flex-start;
 	margin: 1rem;
 }
+/* The header links should look like normal links */
+header #links a {
+	color: #57d5f7;
+}
+header #links a:hover {
+	color: #87f72f;
+}
+header #links a:link { text-decoration: solid underline; }
+header #links a:visited { text-decoration: solid underline; }
+header #links a:hover { text-decoration: solid underline; }
+header #links a:active { text-decoration: solid underline; }
 header #space {
 	flex: 1 1 auto;
 }
@@ -101,6 +121,7 @@ ul li ul li {
 @media print {
 	* {
 		/* Force background images to render when printing */
+		print-color-adjust: exact !important; /* Should be the standard eventually */
 		-webkit-print-color-adjust: exact !important; /* Chrome, Safari */
 		color-adjust: exact !important;  /* Firefox */
 	}
