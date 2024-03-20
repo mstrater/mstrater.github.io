@@ -36,6 +36,7 @@ a:active { text-decoration: none; }
 #resume {
 	background-color: #fff;
 	margin: 2.5rem 2rem;
+	max-width: 59rem;
 	padding: 1rem 1rem 4rem 4rem;
 	box-shadow: 0.5rem 0.5rem 0.5rem 0.2rem rgba(0, 0, 0, 0.2);
 }
@@ -74,6 +75,9 @@ header #space {
 
 .leftMargin {
 	margin-left: 3rem;
+}
+.rightMargin {
+	margin-right: 3rem;
 }
 
 .mainHeading {
