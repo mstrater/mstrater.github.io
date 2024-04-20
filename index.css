@@ -43,16 +43,16 @@ header {
 #logo h1 {
 	display: inline-block;
 	font-size: 3.5rem;
-	margin: 1rem 0 1rem 1rem;
+	margin: 0.5rem 0 0.5rem 1rem;
 	white-space: nowrap;
 }
 
 #email a {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 }
 
 #intro {
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	max-width: 60rem;
 	margin-top: 1rem;
 }
@@ -95,6 +95,8 @@ header {
 .projectImgLink img {
 	width: 100%;
 	display: block;
+	object-fit: cover;
+	height: 17rem;
 }
 .projectImgLink img:hover {
 	filter: opacity(70%);

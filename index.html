@@ -41,17 +41,17 @@
 			<div class="project">
 				<div class="projectTitle">
 					<img src="assets/reddot.svg"/>
-					<h2>Resume</h2>
+					<h2>Résumé</h2>
 				</div>
 				<div class="projectContent">
 					<div class="projectImgLink">
-						<!--use 16x9 images for projects-->
 						<a href="resume/StraterResume.html"><img src="assets/resume.png" alt="Link to Max Strater's resume"/></a>
 					</div>
 					<div class="projectDescription">
 						<p>
-							My history of professional work and education is available in my online resume. Also
-							available as <a href="resume/StraterResume.pdf">PDF</a> and
+							My history of professional work and education is available in my online résumé. It's
+							available as a <a href="resume/StraterResume.html">webpage</a>, a
+							<a href="resume/StraterResume.pdf">PDF</a>, and in
 							<a href="resume/StraterResume.txt">plaintext</a>.
 						</p>
 					</div>
@@ -121,18 +121,20 @@
 			<div class="project">
 				<div class="projectTitle">
 					<img src="assets/reddot.svg"/>
-					<h2>GitHub</h2>
+					<h2>Image to Ring</h2>
 				</div>
 				<div class="projectContent">
 					<div class="projectImgLink">
-						<a href="https://www.instagram.com/maxstrater/" target="_blank">
-							<img src="assets/github-mark.svg" alt="Link to Max Strater's Instagram"/>
+						<a href="https://github.com/mstrater/image-to-ring" target="_blank">
+							<img src="assets/sinusoidRing.png" alt="Link to Max Strater's Instagram"/>
 						</a>
 					</div>
 					<div class="projectDescription">
 						<p>
-							Any significant project is linked on this page, but if you'd like to poke around my GitHub,
-							feel free! I've done a little bit of open source contributing.
+							I wanted to design a ring and get it 3D printed in metal, but my 3D modeling skills were
+							inhibiting me, so I created this project that uses
+							<a href="http://openscad.org/downloads.html">OpenSCAD</a> to map 2D raster images onto 3D
+							ring models.
 						</p>
 					</div>
 				</div>
@@ -145,7 +147,8 @@
 			const firstYear = 2018;
 			let currentYear = (new Date()).getFullYear();
 			if (currentYear - firstYear > 0) {
-				document.querySelector('#copyright').innerHTML = '&copy; Max Strater, ' + firstYear + '-' + currentYear;
+				document.querySelector('#copyright').innerHTML = '&copy; Max Strater, ' + firstYear + '-'
+					+ currentYear;
 			}
 		</script>
 	</div>
