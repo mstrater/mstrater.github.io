@@ -29,12 +29,36 @@ a:hover {
 }
 
 #resume {
+	position: relative; /* Required to make the positioning of the breadcrumb work */
 	background-color: #fff;
 	margin: 2.5rem 2rem;
 	max-width: 59rem;
 	padding: 1rem 1rem 4rem 4rem;
 	box-shadow: 0.5rem 0.5rem 0.5rem 0.2rem rgba(0, 0, 0, 0.2);
 }
+
+#breadcrumb {
+	position: absolute;
+	left: 0;
+	top: -2rem;
+}
+
+#links {
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+}
+/* The header links should look like normal links */
+#links a {
+	color: #57d5f7;
+}
+#links a:hover {
+	color: #87f72f;
+}
+#links a:link { text-decoration: solid underline; }
+#links a:visited { text-decoration: solid underline; }
+#links a:hover { text-decoration: solid underline; }
+#links a:active { text-decoration: solid underline; }
 
 header {
 	display: flex;
@@ -49,21 +73,6 @@ header h1 {
 	font-size: 3.5rem;
 	margin: 3rem 0 1rem 0;
 }
-header #links {
-	align-self: flex-start;
-	margin: 1rem;
-}
-/* The header links should look like normal links */
-header #links a {
-	color: #57d5f7;
-}
-header #links a:hover {
-	color: #87f72f;
-}
-header #links a:link { text-decoration: solid underline; }
-header #links a:visited { text-decoration: solid underline; }
-header #links a:hover { text-decoration: solid underline; }
-header #links a:active { text-decoration: solid underline; }
 header #space {
 	flex: 1 1 auto;
 }
@@ -129,6 +138,9 @@ ul li ul li {
 		margin: 0;
 		padding: 0;
 		box-shadow: none;
+	}
+	#breadcrumb {
+		display: none;
 	}
 	header {
 		margin-top: -3rem;

@@ -4,7 +4,7 @@ max.strater@gmail.com
 www.maxstrater.com
 
 ===Technical Skills===
-Javascript (ES6), Node.js, Webpack, Mocha/Chai, CSS3, Python, Agile Development, AngularJS, three.js, Perforce, Git, Java, C++
+JavaScript (ES6), Node.js, Webpack, Mocha/Chai, CSS3, Python, Agile Development, AngularJS, three.js, Perforce, Git, Java, C++
 
 ===Experience===
 
@@ -60,7 +60,7 @@ Minor: Computer Science
 Thesis Title: Universal Computation in Elementary Cellular Automata
 
 Hack Reactor corporate training at Autodesk
-Javascript boot camp
+JavaScript boot camp
 Worked with: Node.js, Express, React, SqLite, Mocha, Chai, etc.
 
 Moving Up to Modern C++
