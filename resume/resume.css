@@ -80,6 +80,9 @@ header #space {
 .rightMargin {
 	margin-right: 3rem;
 }
+.spanSpace {
+	margin-left: 1rem;
+}
 
 #contactInfo {
 	text-align: end;
@@ -99,9 +102,25 @@ h3:first-of-type {
 	margin-top: 0;
 }
 
+#titlesGrid {
+	display: inline-grid;
+	grid-template-columns: auto auto;
+	column-gap: 0;
+}
+/* https://stackoverflow.com/questions/43610864/how-to-add-dotted-line-after-text */
+.dottedTrail {
+	display: flex;
+}
+.dottedTrail:after {
+	border-bottom: 1px dotted black;
+	content: '__';
+	color: transparent;
+	flex: 1;
+	word-spacing: 1rem;
+}
+
 .timeSpan {
 	opacity: 0.5;
-	margin-left: 1rem;
 }
 
 .project {
