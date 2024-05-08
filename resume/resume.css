@@ -33,7 +33,7 @@ a:hover {
 	background-color: #fff;
 	margin: 2.5rem 2rem;
 	max-width: 59rem;
-	padding: 1rem 1rem 4rem 4rem;
+	padding: 1rem 4rem 4rem 4rem;
 	box-shadow: 0.5rem 0.5rem 0.5rem 0.2rem rgba(0, 0, 0, 0.2);
 }
 
@@ -43,35 +43,32 @@ a:hover {
 	top: -2rem;
 }
 
-#links {
+#formatLinks {
 	position: absolute;
-	top: 2rem;
-	right: 2rem;
+	right: 0;
+	top: -2rem;
 }
-/* The header links should look like normal links */
-#links a {
-	color: #57d5f7;
+/* The header links should mostly look like normal links */
+#formatLinks a {
+	color: #f91c5c;
 }
-#links a:hover {
+#formatLinks a:hover {
 	color: #87f72f;
 }
-#links a:link { text-decoration: solid underline; }
-#links a:visited { text-decoration: solid underline; }
-#links a:hover { text-decoration: solid underline; }
-#links a:active { text-decoration: solid underline; }
 
 header {
 	display: flex;
 	align-items: center;
+	margin-top: 2rem;
 }
 header img {
 	height: 5rem;
 	width: 5rem;
-	margin: 3rem 1rem 1rem 0;
+	margin: 1rem 1rem 1rem 0;
 }
 header h1 {
 	font-size: 3.5rem;
-	margin: 3rem 0 1rem 0;
+	margin: 1rem 0;
 }
 header #space {
 	flex: 1 1 auto;
@@ -82,6 +79,10 @@ header #space {
 }
 .rightMargin {
 	margin-right: 3rem;
+}
+
+#contactInfo {
+	text-align: end;
 }
 
 .mainHeading {
@@ -98,8 +99,13 @@ h3:first-of-type {
 	margin-top: 0;
 }
 
-.productDescription {
-	margin-bottom: 1rem;
+.timeSpan {
+	opacity: 0.5;
+	margin-left: 1rem;
+}
+
+.project {
+	display: inline;
 }
 
 ul {
@@ -142,19 +148,19 @@ ul li ul li {
 	#breadcrumb {
 		display: none;
 	}
-	header {
-		margin-top: -3rem;
-	}
-	header #links {
+	#formatLinks {
 		display: none;
+	}
+	header {
+		margin-top: -1rem;
 	}
 	.printBreak {
 		/* break-inside: avoid; was not working :( */
-		margin-top: 1rem;
+		/*margin-top: 1rem;*/
 	}
 	/* Remove underline in most cases*/
 	a:link { text-decoration: none; }
 	a:visited { text-decoration: none; }
-	a:hover { text-decoration: solid underline; }
+	a:hover { text-decoration: none; }
 	a:active { text-decoration: none; }
 }

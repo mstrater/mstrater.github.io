@@ -10,7 +10,6 @@
 	<!--Backup local font if I decide not to use Google Fonts-->
 	<!--<link href="../fonts/MavenPro.css" rel="stylesheet">-->
 	<link rel="stylesheet" href="resume.css">
-
 	<link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
@@ -23,7 +22,7 @@
 	<div id="container">
 		<div id="resume">
 			<div id="breadcrumb">&lt; <a href="../">Home</a></div>
-			<div id="links">
+			<div id="formatLinks">
 				Also available as a <a href="StraterResume.pdf">PDF</a> and in <a href="StraterResume.txt">plaintext</a>
 			</div>
 			<header>
@@ -31,13 +30,13 @@
 				<h1>Max Strater</h1>
 				<div id="space">
 				</div>
+				<div id="contactInfo">
+					<a href="mailto:max.strater@gmail.com" target="_blank">max.strater@gmail.com</a><br/>
+					<a href="../index.html">www.maxstrater.com</a><br/>
+					(503) 841-1149<br/>
+					Portland, OR<br/>
+				</div>
 			</header>
-			<div class="leftMargin">
-				<a href="mailto:max.strater@gmail.com" target="_blank">max.strater@gmail.com</a><br/>
-				<a href="../index.html">www.maxstrater.com</a><br/>
-				(503) 841-1149<br/>
-				Portland, OR<br/>
-			</div>
 			<div>
 				<div class="mainHeading">
 					<img src="../assets/reddot.svg"/>
@@ -54,11 +53,10 @@
 				</div>
 				<div class="leftMargin rightMargin">
 					<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a>,
+					<a href="https://nodejs.org/en/" target="_blank">Node.js</a>/<a href="https://www.npmjs.com/" target="_blank">npm</a>,
 					<a href="https://www.typescriptlang.org/" target="_blank">Typescript</a>,
-					<a href="https://nodejs.org/en/" target="_blank">Node.js</a>,
 					<a href="https://reactjs.org/" target="_blank">React</a>,
 					<a href="https://mui.com/" target="_blank">MUI</a>,
-					<a href="https://jotai.org/" target="_blank">Jotai</a>,
 					<a href="https://lerna.js.org/" target="_blank">Lerna</a>,
 					<a href="https://nx.dev/" target="_blank">Nx</a>,
 					<a href="https://playwright.dev/" target="_blank">Playwright</a>,
@@ -69,7 +67,7 @@
 					<a href="https://www.jenkins.io/" target="_blank">Jenkins</a>,
 					<a href="https://www.python.org/" target="_blank">Python</a>,
 					<a href="https://www.java.com/en/" target="_blank">Java</a>,
-					<a href="https://jfrog.com/artifactory/" target="_blank">Artifactory</a>
+					<a href="https://jfrog.com/artifactory/" target="_blank">Artifactory</a>,
 					<a href="https://www.atlassian.com/software/jira" target="_blank">Jira</a>
 				</div>
 			</div>
@@ -79,111 +77,77 @@
 					<h2>Experience</h2>
 				</div>
 				<div class="leftMargin">
-					<div class="experienceItem">
-						<h3><a href="https://www.autodesk.com/" target="_blank">Autodesk</a></h3>
-						<i>Principal Engineer</i> (April 2023 - Present)</br>
-						<i>Senior Software Engineer</i> (April 2021 - April 2023)</br>
-						<i>Software Engineer</i> (January 2014 - April 2021)</br>
-						<i>Contractor</i> (November 2012 - January 2014)</br>
-						<i>Intern</i> (Summer 2011, Summer 2010)</br>
-						<ul>
-							<div>
-								<h4>Weave MUI Toolkit</h4>
-								<div class="productDescription">
-									<i>Weave is Autodesk's official design system</i>
-								</div>
-								<li>December 2022 to present</li>
-								<li>Accomplishments:
-									<ul>
-										<li>Independently built the Jenkins CI/CD system for automating building, testing (including visual regression testing and asset handling), deploying a <a href="https://storybook.js.org/" target="_blank">Storybook</a> to GitHub pages, versioning, and publishing to our internal NPM registry</li>
-										<li>Managed the release process for a team of several dozen people</li>
-										<li>Mentored junior developers/interns working on the project</li>
-										<li>Wrote the original documentation that became the "getting started" guide</li>
-										<li>Adopted the library early and integrated it into a major UI component in a customer facing application</li>
-									</ul>
-								</li>
-							</div>
-							<div>
-								<h4>Notification Center</h4>
-								<div class="productDescription">
-									<i>The notification center presents, manages, and saves toast and flyout notifications</i>
-								</div>
-								<li>On and off since April 2020 to present</li>
-								<li>Accomplishments:
-									<ul>
-										<li>Acted as the lead (and often sole) developer from project conception to delivery</li>
-										<li>Leveraged React inside a desktop application by using an embedded browser</li>
-										<li>Defined and utilized an API for communication between JavaScript and C++</li>
-										<li>Developed a system that allows custom messaging to any/all users at will based on a <a href="https://json-schema.org/" target="_blank">JSON Schema</a> for notifications stored in <a href="https://aws.amazon.com/s3/" target="_blank">S3</a></li>
-										<li>Maintained the project over several years, through multiple UI libraries and React versions (including migrating from class based to functional components)</li>
-										<li>Formally mentored an intern on the project who was then hired and is now a project lead</li>
-									</ul>
-								</li>
-							</div>
-							<div>
-								<h4>Other Embedded Browser Experiences</h4>
-								<div class="productDescription">
-									<i>Stuff goes here????????????</i>
-								</div>
-								<li>On and off since March 2019 to present</li>
-								<li>Accomplishments:
-									<ul>
-										<li>Stuff goes here????????????</li>
-										<li>Stuff goes here????????????</li>
-										<li>Stuff goes here????????????</li>
-									</ul>
-								</li>
-							</div>
-							<div>
-								<h4>Innersourced <a href="https://opentracing.io/" target="_blank">OpenTracing</a> Library</h4>
-								<div class="productDescription">
-									<i>Tracing is the process of tagging and following operations as they flow through a distributed system</i>
-								</div>
-								<li>Early 2018 to October 2020 (with minor maintenance since)</li>
-								<li>Accomplishments:
-									<ul>
-										<li>Worked to define architecture and structure for the library</li>
-										<li>Wrote most of the core code</li>
-										<li>Designed and coded an automated test suite and integrated it with our Jenkins pipeline</li>
-										<li>Refactored the library to be consumable from Node.js or a browser using <a href="https://webpack.js.org/" target="_blank">Webpack</a></li>
-									</ul>
-								</li>
-							</div>
-							<div>
-								<h4>Fusion</h4>
-								<div class="productDescription">
-									<i><a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank">Fusion</a> is a 3D parametric CAD, CAM, and simulation desktop application</i>
-								</div>
-								<li>February 2016 - present</li>
-								<li>Accomplishments:
-									<ul>
-										<li>Helped to upgrade the UI system to <a href="https://doc.qt.io/qt-5/qt5-intro.html" target="_blank">Qt5</a></li>
-										<li>Worked on improving offline caching, unified logging, synthetic monitoring, and the thundering herd problem</li>
-										<li>Formally mentored a college summer intern</li>
-									</ul>
-								</li>
-							</div>
-							<div>
-								<h4><a href="https://www.autodesk.com/products/configurator-360/overview" target="_blank">Configurator 360</a> Web and iPad Clients</h4>
-								<div class="productDescription">
-									<i>
-										<a href="https://www.autodesk.com/products/configurator-360/overview" target="_blank">Configurator 360</a> was a design configurator for the parametric CAD software
-										<a href="https://www.autodesk.com/products/inventor/overview" target="_blank">Inventor</a>
-									</i>
-								</div>
-								<li>November 2012 - February 2016</li>
-								<li>Accomplishments:
-									<ul>
-										<li>Prototyped a new UI based on <a href="https://angularjs.org/" target="_blank">AngularJS</a> that became a major component of our app</li>
-										<li>Used <a href="https://threejs.org/" target="_blank">three.js</a> to create a model positioning and rotation tool</li>
-										<li>Worked server side with <a href="https://dotnet.microsoft.com/en-us/apps/aspnet/mvc" target="_blank">ASP.NET MVC 5</a></li>
-										<li>As the lead (and usually sole) developer of the iPad app, followed the project from conception through publishing on the Apple app store and maintenance</li>
-										<li>Wrote an STL file parser to load 3D models</li>
-									</ul>
-								</li>
-							</div>
-						</ul>
-					</div>
+					<h3><a href="https://www.autodesk.com/" target="_blank">Autodesk</a></h3>
+					<i>Principal Engineer</i><span class="timeSpan">(April 2023 - Present)</span></br>
+					<i>Senior Software Engineer</i><span class="timeSpan">(April 2021 - April 2023)</span></br>
+					<i>Software Engineer</i><span class="timeSpan">(January 2014 - April 2021)</span></br>
+					<i>Contractor</i><span class="timeSpan">(November 2012 - January 2014)</span></br>
+					<i>Intern</i><span class="timeSpan">(Summer 2011, Summer 2010)</span></br>
+					<ul>
+						<div>
+							<h4 class="project">Weave MUI Toolkit</h4><span class="timeSpan">(December 2022 to present)</span>
+							<li>Weave is Autodesk's official design system</li>
+							<li>Accomplishments:
+								<ul>
+									<li>Independently built the Jenkins CI/CD system for automating building, testing (including visual regression testing and asset handling), deploying a <a href="https://storybook.js.org/" target="_blank">Storybook</a> to <a href="https://pages.github.com/" target="_blank">GitHub pages</a>, versioning, and publishing to our internal NPM registry</li>
+									<li>Managed the release process for a team of several dozen people</li>
+									<li>Mentored junior developers/interns working on the project</li>
+									<li>Wrote the original documentation that became the "getting started" guide</li>
+									<li>Adopted the library early and integrated it into a major UI component in a customer facing application</li>
+								</ul>
+							</li>
+						</div>
+						<div>
+							<h4 class="project">Notification Center</h4><span class="timeSpan">(On and off since April 2020 to present)</span>
+							<li>The notification center presents, manages, and saves toast and flyout notifications</li>
+							<li>Accomplishments:
+								<ul>
+									<li>Acted as the lead (and often sole) developer from project conception to delivery</li>
+									<li>Leveraged React inside a desktop application by using an embedded browser</li>
+									<li>Defined and utilized an API for communication between JavaScript and C++</li>
+									<li>Developed a system that allows custom messaging to any/all users at will based on a <a href="https://json-schema.org/" target="_blank">JSON Schema</a> for notifications stored in <a href="https://aws.amazon.com/s3/" target="_blank">S3</a></li>
+									<li>Maintained the project over several years, through multiple UI libraries and React versions (including migrating from class based to functional components)</li>
+									<li>Formally mentored an intern on the project who was then hired and is now a project lead</li>
+								</ul>
+							</li>
+						</div>
+						<div>
+							<h4 class="project">Innersourced <a href="https://opentracing.io/" target="_blank">OpenTracing</a> Library</h4><span class="timeSpan">(Early 2018 to October 2020 with minor maintenance since)</span>
+							<li>Tracing is the process of tagging and following operations as they flow through a distributed system</li>
+							<li>Accomplishments:
+								<ul>
+									<li>Worked to define architecture and structure for the library</li>
+									<li>Wrote most of the core code</li>
+									<li>Designed and coded an automated test suite and integrated it with our Jenkins pipeline</li>
+									<li>Refactored the library to be consumable from Node.js or a browser using <a href="https://webpack.js.org/" target="_blank">Webpack</a></li>
+								</ul>
+							</li>
+						</div>
+						<div>
+							<h4 class="project">Fusion</h4><span class="timeSpan">(February 2016 - present)</span>
+							<li><a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank">Fusion</a> is a 3D parametric CAD, CAM, and simulation desktop application</li>
+							<li>Accomplishments:
+								<ul>
+									<li>Helped to upgrade the UI system to <a href="https://doc.qt.io/qt-5/qt5-intro.html" target="_blank">Qt5</a></li>
+									<li>Worked on improving offline caching, unified logging, synthetic monitoring, and the thundering herd problem</li>
+									<li>Formally mentored a college summer intern</li>
+								</ul>
+							</li>
+						</div>
+						<div>
+							<h4 class="project"><a href="https://www.autodesk.com/products/configurator-360/overview" target="_blank">Configurator 360</a> Web and iPad Clients</h4><span class="timeSpan">(November 2012 - February 2016)</span>
+							<li>Configurator 360 was a design configurator for the parametric CAD software <a href="https://www.autodesk.com/products/inventor/overview" target="_blank">Inventor</a></li>
+							<li>Accomplishments:
+								<ul>
+									<li>Prototyped a new UI based on <a href="https://angularjs.org/" target="_blank">AngularJS</a> that became a major component of our app</li>
+									<li>Used <a href="https://threejs.org/" target="_blank">three.js</a> to create a model positioning and rotation tool</li>
+									<li>Worked server side with <a href="https://dotnet.microsoft.com/en-us/apps/aspnet/mvc" target="_blank">ASP.NET MVC 5</a></li>
+									<li>As the lead (and usually sole) developer of the iPad app, followed the project from conception through publishing on the Apple app store and maintenance</li>
+									<li>Wrote an STL file parser to load 3D models</li>
+								</ul>
+							</li>
+						</div>
+					</ul>
 				</div>
 			</div>
 			<div>
