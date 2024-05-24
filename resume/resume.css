@@ -80,9 +80,6 @@ header #space {
 .rightMargin {
 	margin-right: 3rem;
 }
-.spanSpace {
-	margin-left: 1rem;
-}
 
 #contactInfo {
 	text-align: end;
@@ -102,35 +99,28 @@ h3:first-of-type {
 	margin-top: 0;
 }
 
-#titlesGrid {
-	display: inline-grid;
-	grid-template-columns: auto auto;
-	column-gap: 0;
-}
-/* https://stackoverflow.com/questions/43610864/how-to-add-dotted-line-after-text */
-.dottedTrail {
-	display: flex;
-}
-.dottedTrail:after {
-	border-bottom: 1px dotted black;
-	content: '__';
-	color: transparent;
-	flex: 1;
-	word-spacing: 1rem;
-}
-
 .timeSpan {
 	opacity: 0.5;
 }
+.timeSpan::before {
+	content: "\00a0";
+}
 
-.project {
+.titles {
+	margin-bottom: 1rem;
+}
+
+.project:has(+ .project) {
+	margin-bottom: 1rem;
+}
+.project h4 {
 	display: inline;
 }
 
 ul {
-	padding-left: 2rem;
+	padding-left: 1rem;
 	list-style-type: none;
-	margin-right: 2rem;
+	margin: 0;
 }
 ul li {
 	padding-left: 1.2rem;
@@ -175,11 +165,14 @@ ul li ul li {
 	}
 	.printBreak {
 		/* break-inside: avoid; was not working :( */
-		/*margin-top: 1rem;*/
+		/* margin-top: 1rem;*/
 	}
-	/* Remove underline in most cases*/
+	/* Uncomment this to remove link underline in most cases */
+	/* Useful for creating a pdf intended for actual print */
+	/*
 	a:link { text-decoration: none; }
 	a:visited { text-decoration: none; }
 	a:hover { text-decoration: none; }
 	a:active { text-decoration: none; }
+	*/
 }
