@@ -9,7 +9,8 @@ Blue = #57d5f7 rgb(87, 213, 247)
 	font-family: 'Maven Pro', sans-serif;
 }
 
-html, body {
+html,
+body {
 	margin: 0;
 	padding: 0;
 }
@@ -17,6 +18,7 @@ html, body {
 a {
 	color: #57d5f7;
 }
+
 a:hover {
 	color: #87f72f;
 }
@@ -36,23 +38,25 @@ header {
 	align-items: center;
 	justify-content: center;
 }
+
 #logo img {
 	height: 5rem;
 	width: 5rem;
 }
+
 #logo h1 {
 	display: inline-block;
 	font-size: 3.5rem;
-	margin: 1rem 0 1rem 1rem;
+	margin: 0.5rem 0 0.5rem 1rem;
 	white-space: nowrap;
 }
 
 #email a {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 }
 
 #intro {
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	max-width: 60rem;
 	margin-top: 1rem;
 }
@@ -62,49 +66,61 @@ header {
 }
 
 #projectsContainer {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 30rem);
 	justify-content: center;
 }
+
 .project {
-	max-width: 30rem;
-	margin: 1rem;
-	/* IE bug */
-	min-width: 1px;
+	margin: 1rem 0.5rem 0 0.5rem;
 }
+
 .project h2 {
 	margin: 0;
 }
+
 .projectTitle {
 	display: flex;
 	align-items: center;
 	margin-bottom: 1rem;
 }
+
 .projectTitle img {
 	width: 1rem;
 	height: 1rem;
 	margin-right: 0.4rem;
 }
+
 .projectContent {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 }
+
 .projectImgLink {
-	background-color:#87f72f;
+	background-color: #87f72f;
 	/* IE bug */
 	overflow: hidden;
 }
-.projectImgLink img{
+
+.projectImgLink img {
 	width: 100%;
-	display:block;
+	display: block;
+	object-fit: cover;
+	height: 17rem;
 }
+
 .projectImgLink img:hover {
 	filter: opacity(70%);
+}
+
+.projectDescription p {
+	/* override default margin */
+	margin-bottom: 0;
 }
 
 footer {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 1rem;
+	margin: 1rem 0;
 }

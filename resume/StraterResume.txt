@@ -1,69 +1,88 @@
 Max Strater
-(503) 841-1149
 max.strater@gmail.com
-www.maxstrater.com
+https://www.maxstrater.com
+(503) 841-1149
+Portland, OR
+
+===Summary===
+Versatile, team-oriented software engineer with well over 10 years of professional experience. Passionate about modern
+web development, mentoring junior engineers, and writing reliable, maintainable code. Highly skilled at UI development
+and bridging the gap between designers and coders. Proficient across all steps of the software development lifecycle in
+both web and desktop applications.
 
 ===Technical Skills===
-Javascript (ES6), Node.js, Webpack, Mocha/Chai, CSS3, Python, Agile Development, AngularJS, three.js, Perforce, Git, Java, C++
+JavaScript,
+Node.js/npm,
+Typescript,
+React,
+MUI,
+Lerna,
+Nx,
+Playwright,
+Mocha/Chai,
+Git/GitHub,
+C++,
+Qt (especially QtWebEngine),
+Jenkins,
+Python,
+Java,
+Artifactory,
+Jira
 
 ===Experience===
+___Autodesk___
+Principal Engineer(April 2023 - Present)
+Senior Software Engineer(April 2021 - April 2023)
+Software Engineer(January 2014 - April 2021)
+Contractor(November 2012 - January 2014)
+Intern(Summer 2011, Summer 2010)
 
-*Autodesk*
-
-Software Engineer (January 2014 - Present)
-Contractor (November 2012 - January 2014)
-Intern (Summer 2011, Summer 2010)
-
-Innersource Tracing Library
-Tracing is the process of tagging and following operations as they flow through a distributed system
-In early 2018 I started creating an innersourced tracing library based on OpenTracing
+Weave MUI Toolkit(December 2022 to present)
+Weave is Autodesk's official design system
 Accomplishments:
-	Worked to define architecture and structure for the library
+	Independently built the Jenkins CI/CD system for automating building, testing (including visual regression testing), deploying a Storybook to GitHub pages, versioning, and publishing to our internal NPM registry
+	Managed the release process for a team of several dozen people, most of whom lived outside the US, across many timezones
+	Mentored junior developers/interns working on the project
+	Wrote the original documentation that became the "getting started" guide
+	Adopted the library early and integrated it into a major UI component in a customer facing application
+	Evangelized adoption of the toolkit through several technical presentations
+
+Notification Center(On and off since April 2020 to present)
+The notification center presents, manages, and saves passive pop-up and flyout notifications
+Accomplishments:
+	Acted as the lead (and often sole) developer from project conception to delivery
+	Leveraged React inside a desktop application by using an embedded browser
+	Defined and utilized an API for communication between JavaScript and C++
+	Developed a system that allows custom messaging to any/all users at will based on a JSON Schema for notifications stored in S3
+	Maintained the project over several years, through multiple UI libraries and React versions (including migrating from class based to functional components)
+	Formally mentored an intern on the project who was then hired and is now a project lead
+
+Innersourced OpenTracing Library(Early 2018 to October 2020 with minor maintenance since)
+Tracing is the process of tagging and following operations as they flow through a distributed system
+Accomplishments:
+	Defined architecture and structure for the library
 	Wrote most of the core code
-	Designed an automated test suite and integrated it with our Jenkins pipeline
+	Designed and coded an automated test suite and integrated it with our Jenkins pipeline
 	Refactored the library to be consumable from Node.js or a browser using Webpack
 
-Fusion 360
-Fusion 360 is a 3D parametric CAD, CAM, and simulation product
-In February 2016 I started working on Fusion 360
+Fusion(February 2016 - present)
+Fusion is a 3D parametric CAD, CAM, and simulation desktop application
 Accomplishments:
-	Helped to upgrade the UI system to Qt5
-	Developed in a chromium embedded framework based UI component
-	Became a member of a special team tasked with improving the resiliency of cloud workflows
+	Created several embedded browser UI widgets using Qt and QtWebEngine
 	Worked on improving offline caching, unified logging, synthetic monitoring, and the thundering herd problem
-	Mentored a college summer intern
+	Formally mentored a college summer intern
 
-Configurator 360 Web Client
-After being hired as a full time employee, I integrated into the Agile development process for the Configurator 360 web app
-Assisted in converting the existing Silverlight client to HTML5
+Configurator 360 Web and iPad Clients(November 2012 - February 2016)
+Configurator 360 was a design configurator for the parametric CAD software Inventor
 Accomplishments:
 	Prototyped a new UI based on AngularJS that became a major component of our app
 	Used three.js to create a model positioning and rotation tool
 	Worked server side with ASP.NET MVC 5
-
-Configurator 360 Ipad Client
-Configurator 360 is a design configurator for the parametric CAD software Inventor
-I was tasked with creating an iPad client for Configurator 360
-As the lead developer, I followed the project from conception through publishing on the Apple app store and maintenance
-Accomplishments:
-	Using a SOAP web service to exchange data with our cloud server
-	Writing an STL file parser to load 3D models into the app
-	Acting as developer, QA, and even designer for a single project
-	Navigating the idiosyncrasies of iOS development and the Apple ecosystem
+	As the lead (and usually sole) developer of the iPad app, followed the project from conception through publishing on the Apple app store and maintenance
+	Wrote an STL file parser to load 3D models
 
 ===Education===
-
 Pomona College - Claremont, CA
 Bachelor of Arts 2012
 Major: Mathematics
 Minor: Computer Science
-Thesis Title: Universal Computation in Elementary Cellular Automata
-
-Hack Reactor corporate training at Autodesk
-Javascript boot camp
-Worked with: Node.js, Express, React, SqLite, Mocha, Chai, etc.
-
-Moving Up to Modern C++
-Corporate training at Autodesk
-"An Introduction to Modern C++ for C++ Programmers."
-Offered by BDSoft
