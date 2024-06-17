@@ -9,7 +9,8 @@ Blue = #57d5f7 rgb(87, 213, 247)
 	font-family: 'Maven Pro', sans-serif;
 }
 
-html, body {
+html,
+body {
 	margin: 0;
 	padding: 0;
 	color: #000;
@@ -19,6 +20,7 @@ html, body {
 a {
 	color: #000;
 }
+
 a:hover {
 	color: #87f72f
 }
@@ -29,7 +31,8 @@ a:hover {
 }
 
 #resume {
-	position: relative; /* Required to make the positioning of the breadcrumb work */
+	/* Required to make the positioning of the breadcrumb work */
+	position: relative;
 	background-color: #fff;
 	margin: 2.5rem 2rem;
 	max-width: 59rem;
@@ -48,10 +51,12 @@ a:hover {
 	right: 0;
 	top: -2rem;
 }
+
 /* The header links should mostly look like normal links */
 #formatLinks a {
 	color: #f91c5c;
 }
+
 #formatLinks a:hover {
 	color: #87f72f;
 }
@@ -61,15 +66,18 @@ header {
 	align-items: center;
 	margin-top: 2rem;
 }
+
 header img {
 	height: 5rem;
 	width: 5rem;
 	margin: 1rem 1rem 1rem 0;
 }
+
 header h1 {
 	font-size: 3.5rem;
 	margin: 1rem 0;
 }
+
 header #space {
 	flex: 1 1 auto;
 }
@@ -77,6 +85,7 @@ header #space {
 .leftMargin {
 	margin-left: 3rem;
 }
+
 .rightMargin {
 	margin-right: 3rem;
 }
@@ -89,6 +98,7 @@ header #space {
 	display: flex;
 	align-items: center;
 }
+
 .mainHeading img {
 	width: 1rem;
 	height: 1rem;
@@ -102,6 +112,7 @@ h3:first-of-type {
 .timeSpan {
 	opacity: 0.5;
 }
+
 .timeSpan::before {
 	content: "\00a0";
 }
@@ -113,6 +124,7 @@ h3:first-of-type {
 .project:has(+ .project) {
 	margin-bottom: 1rem;
 }
+
 .project h4 {
 	display: inline;
 }
@@ -122,6 +134,7 @@ ul {
 	list-style-type: none;
 	margin: 0;
 }
+
 ul li {
 	padding-left: 1.2rem;
 	background-image: url(assets/greendot.svg);
@@ -130,6 +143,7 @@ ul li {
 	background-repeat: no-repeat;
 	margin: 0.25rem;
 }
+
 ul li ul li {
 	background-image: url(assets/bluedot.svg);
 }
@@ -137,6 +151,7 @@ ul li ul li {
 .educationItem {
 	margin-bottom: 1rem;
 }
+
 .educationItemDescription {
 	margin-left: 1rem;
 }
@@ -144,29 +159,31 @@ ul li ul li {
 @media print {
 	* {
 		/* Force background images to render when printing */
-		print-color-adjust: exact !important; /* Should be the standard eventually */
-		-webkit-print-color-adjust: exact !important; /* Chrome, Safari */
-		color-adjust: exact !important;  /* Firefox */
+		/* Should be the standard eventually */
+		print-color-adjust: exact !important;
+		/* Chrome, Safari */
+		-webkit-print-color-adjust: exact !important;
 	}
+
 	#resume {
 		background-color: none;
 		margin: 0;
 		padding: 0;
 		box-shadow: none;
 	}
+
 	#breadcrumb {
 		display: none;
 	}
+
 	#formatLinks {
 		display: none;
 	}
+
 	header {
 		margin-top: -1rem;
 	}
-	.printBreak {
-		/* break-inside: avoid; was not working :( */
-		/* margin-top: 1rem;*/
-	}
+
 	/* Uncomment this to remove link underline in most cases */
 	/* Useful for creating a pdf intended for actual print */
 	/*
