@@ -1,0 +1,15 @@
+Max Strater
+max.strater@gmail.com
+maxstrater.com
+(503) 841-1149
+Portland, OR
+
+Dear Hiring Manager,
+    I am writing to express my keen interest in the open [POSITION] position at [ORG]. [Statement about being referred if applicable] As a versatile, team-oriented software engineer with well over 10 years of professional experience, I believe I would be a great asset to [ORG] and help accelerate progress within a team of software engineers.
+    I've accumulated a broad set of software development skills during my career. I've worked on low level C++, iOS apps, 3D graphics, backend servers, security/reliability engineering, unit testing, devops, CI/CD, cloud services - wherever someone was needed, I was happy to learn and fill in. However, my main interest and expertise has always been UI, especially web development. I've stayed informed on the latest trends in UI web frameworks throughout the years and put that knowledge to use across many different projects. I'm particularly proud of my work creating the notification center in Autodesk's CAD software Fusion. While most of Fusion's UI is built in Qt, I was able to leverage an embedded web browser to seamlessly integrate a React widget into the existing UI, which dramatically accelerated development.
+    All that said, I think my greatest asset is my ability to lead teammates through mentorship and collaboration. The most fulfilling parts of my workdays are the times when someone messages me and asks for a quick Zoom call to go over a problem they're having. Helping someone through a challenge or working on it collaboratively is very rewarding. I believe that keeping these lines of friendly communication open is the best way to build an effective team and quality software.
+    While I deeply value my current teammates and all the time I've spent at Autodesk, I'm looking for work closer in line with my personal values. That's why this position piqued my interest. [EXPLAIN WHY YOU CARE ABOUT THE ORG'S MISSION] It would be incredibly motivating and fulfilling to work in this field.
+    In any case, thank you for your time, and please don’t hesitate to reach out if you have any questions.
+
+Sincerely,
+Max Strater
