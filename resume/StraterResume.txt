@@ -13,7 +13,7 @@ both web and desktop applications.
 ===Technical Skills===
 JavaScript,
 Node.js/npm,
-Typescript,
+TypeScript,
 React,
 MUI,
 Lerna,
