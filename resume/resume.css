@@ -117,6 +117,10 @@ h3:first-of-type {
 	content: "\00a0";
 }
 
+.lighter {
+	opacity: 0.5;
+}
+
 .titles {
 	margin-bottom: 1rem;
 }
@@ -186,6 +190,10 @@ ul li ul li {
 
 	header {
 		margin-top: -1rem;
+	}
+
+	.pageBreak {
+		break-after: page;
 	}
 
 	/* Uncomment this to remove link underline in most cases */

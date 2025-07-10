@@ -18,6 +18,7 @@
 	<link rel="mask-icon" href="../assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#2b5797">
 	<meta name="theme-color" content="#ffffff">
+	<!-- To help create the plaintext version do a regex find with <[\w|\W]*?> and replace with empty string -->
 </head>
 
 <body>
@@ -48,7 +49,7 @@
 					Versatile, team-oriented software engineer with well over 10 years of professional experience.
 					Passionate about modern web development, mentoring junior engineers, and writing reliable,
 					maintainable code. Highly skilled at UI development and bridging the gap between designers and
-					coders. Proficient across all steps of the software development lifecycle in both web and desktop
+					coders. Proficient across all stages of the software development lifecycle in both web and desktop
 					applications.
 				</div>
 			</div>
@@ -70,11 +71,12 @@
 					<a href="https://git-scm.com/" target="_blank">Git</a>/<a href="https://github.com/"
 						target="_blank">GitHub</a>,
 					<a href="https://www.python.org/" target="_blank">Python</a>,
+					<a href="https://learn.microsoft.com/en-us/ssms/" target="_blank">SQL Server Management Studio</a>
 					<a href="https://isocpp.org/" target="_blank">C++</a>,
 					<a href="https://www.jenkins.io/" target="_blank">Jenkins</a>,
 					<a href="https://www.docker.com/" target="_blank">Docker</a>,
-					<a href="https://www.qt.io/" target="_blank">Qt</a> (especially <a
-						href="https://wiki.qt.io/QtWebEngine" target="_blank">QtWebEngine</a>),
+					<a href="https://www.qt.io/" target="_blank">Qt</a>,
+					<a href="https://wiki.qt.io/QtWebEngine" target="_blank">QtWebEngine</a>,
 					<a href="https://www.java.com/en/" target="_blank">Java</a>,
 					<a href="https://jfrog.com/artifactory/" target="_blank">Artifactory</a>,
 					<a href="https://www.atlassian.com/software/jira" target="_blank">Jira</a>
@@ -86,22 +88,47 @@
 					<h2>Experience</h2>
 				</div>
 				<div class="leftMargin">
+					<h3><a href="https://www.oregon.gov/odot/pages/index.aspx" target="_blank">Oregon Department of
+							Transportation</a></h3>
+					<div class="titles">
+						<i>Information Systems Specialist 6</i><span class="timeSpan">(April 2025 - July
+							2025)</span></br>
+						<span class="lighter">Affected by the seniority-based <a
+								href="https://www.wweek.com/news/state/2025/07/07/odot-chief-details-layoffs-in-staff-email/"
+								target="_blank">2025 ODOT layoffs</a></span></br>
+					</div>
+					<div class="project">
+						<h4>Oregon DMV Application Development</h4>
+						<ul>
+							<li><a href="https://www.nascio.org/wp-content/uploads/2022/08/OR_Business-Process-Innovation-1.pdf"
+									target="_blank">OLIVR</a> is the software and database system used by Oregon DMV and
+								its partners</li>
+							<li>Accomplishments:
+								<ul>
+									<li>Quickly acclimated to the proprietary, ideosyncratic, and largely undocumented
+										development environment</li>
+									<li>Learned SQL and SQL Server Management Studio from the ground up</li>
+									<li>Started contributing changes to production</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
 					<h3><a href="https://www.autodesk.com/" target="_blank">Autodesk</a></h3>
 					<div class="titles">
-						<i>Principal Engineer</i><span class="timeSpan">(April 2023 - Present)</span></br>
+						<i>Principal Engineer</i><span class="timeSpan">(April 2023 - April 2025)</span></br>
 						<i>Senior Software Engineer</i><span class="timeSpan">(April 2021 - April 2023)</span></br>
 						<i>Software Engineer</i><span class="timeSpan">(January 2014 - April 2021)</span></br>
 						<i>Contractor</i><span class="timeSpan">(November 2012 - January 2014)</span></br>
 						<i>Intern</i><span class="timeSpan">(Summer 2011, Summer 2010)</span></br>
 					</div>
 					<div class="project">
-						<h4>Weave MUI Toolkit</h4><span class="timeSpan">(December 2022 to present)</span>
+						<h4>Weave MUI Toolkit</h4><span class="timeSpan">(December 2022 to April 2025)</span>
 						<ul>
 							<li>Weave is Autodesk's official design system</li>
 							<li>Accomplishments:
 								<ul>
-									<li>Independently built the Jenkins CI/CD system for automating building, testing
-										(including visual regression testing), deploying a <a
+									<li>Independently built the Jenkins CI/CD pipeline for automating building, unit
+										testing, visual regression testing, deploying a <a
 											href="https://storybook.js.org/" target="_blank">Storybook</a> to <a
 											href="https://pages.github.com/" target="_blank">GitHub pages</a>,
 										versioning, and publishing to our internal NPM registry</li>
@@ -117,8 +144,8 @@
 						</ul>
 					</div>
 					<div class="project">
-						<h4>Notification Center</h4><span class="timeSpan">(On and off since April 2020 to
-							present)</span>
+						<h4>Notification Center</h4><span class="timeSpan">(On and off from April 2020 to
+							April 2025)</span>
 						<ul>
 							<li>The notification center presents, manages, and saves passive pop-up and flyout
 								notifications</li>
@@ -126,8 +153,10 @@
 								<ul>
 									<li>Acted as the lead (and often sole) developer from project conception to delivery
 									</li>
-									<li>Leveraged React inside a desktop application by using an embedded browser</li>
-									<li>Defined and utilized an API for communication between JavaScript and C++</li>
+									<li>Leveraged React inside a desktop application by using an embedded browser
+										(QtWebEngine)</li>
+									<li>Defined and utilized an API for custom communication between JavaScript and C++
+									</li>
 									<li>Developed a system that allows custom messaging to any/all users at will based
 										on a <a href="https://json-schema.org/" target="_blank">JSON Schema</a> for
 										notifications stored in <a href="https://aws.amazon.com/s3/"
@@ -143,7 +172,7 @@
 					</div>
 					<div class="project">
 						<h4>Innersourced <a href="https://opentracing.io/" target="_blank">OpenTracing</a> Library</h4>
-						<span class="timeSpan">(Early 2018 to October 2020 with minor maintenance since)</span>
+						<span class="timeSpan">(Early 2018 to October 2020)</span>
 						<ul>
 							<li>Tracing is the process of tagging and following operations as they flow through a
 								distributed system</li>
@@ -151,7 +180,8 @@
 								<ul>
 									<li>Defined architecture and structure for the library</li>
 									<li>Wrote most of the core code</li>
-									<li>Designed and coded an automated test suite and integrated it with our Jenkins
+									<li>Designed and coded an automated test suite and integrated it with our
+										Jenkins</a>
 										pipeline</li>
 									<li>Refactored the library to be consumable from Node.js or a browser using <a
 											href="https://webpack.js.org/" target="_blank">Webpack</a></li>
@@ -159,8 +189,8 @@
 							</li>
 						</ul>
 					</div>
-					<div class="project">
-						<h4>Fusion</h4><span class="timeSpan">(February 2016 - present)</span>
+					<div class="project pageBreak">
+						<h4>Fusion</h4><span class="timeSpan">(February 2016 - April 2025)</span>
 						<ul>
 							<li><a href="https://www.autodesk.com/products/fusion-360/overview"
 									target="_blank">Fusion</a> is a 3D parametric CAD, CAM, and simulation desktop
@@ -189,12 +219,10 @@
 											target="_blank">AngularJS</a> that became a major component of our app</li>
 									<li>Used <a href="https://threejs.org/" target="_blank">three.js</a> to create a
 										model positioning and rotation tool</li>
-									<li>Worked server side with <a
-											href="https://dotnet.microsoft.com/en-us/apps/aspnet/mvc"
-											target="_blank">ASP.NET MVC 5</a></li>
 									<li>As the lead (and usually sole) developer of the iPad app, followed the project
 										from conception through publishing on the Apple app store and maintenance</li>
-									<li>Wrote an STL file parser to load 3D models</li>
+									<li>Wrote an <a href="https://en.wikipedia.org/wiki/STL_(file_format)"
+											target="_blank">STL</a> file parser to load 3D models</li>
 								</ul>
 							</li>
 						</ul>

@@ -5,10 +5,11 @@ https://www.maxstrater.com
 Portland, OR
 
 ===Summary===
-Versatile, team-oriented software engineer with well over 10 years of professional experience. Passionate about modern
-web development, mentoring junior engineers, and writing reliable, maintainable code. Highly skilled at UI development
-and bridging the gap between designers and coders. Proficient across all steps of the software development lifecycle in
-both web and desktop applications.
+Versatile, team-oriented software engineer with well over 10 years of professional experience.
+Passionate about modern web development, mentoring junior engineers, and writing reliable,
+maintainable code. Highly skilled at UI development and bridging the gap between designers and
+coders. Proficient across all stages of the software development lifecycle in both web and desktop
+applications.
 
 ===Technical Skills===
 JavaScript,
@@ -21,55 +22,78 @@ Nx,
 Playwright,
 Git/GitHub,
 Python,
+SQL Server Management Studio
 C++,
 Jenkins,
 Docker,
-Qt (especially QtWebEngine),
+Qt,
+QtWebEngine,
 Java,
 Artifactory,
 Jira
 
 ===Experience===
+___Oregon Department of Transportation___
+Information Systems Specialist 6 (April 2025 - July 2025)
+Affected by the seniority-based 2025 ODOT layoffs
+
+Oregon DMV Application Development
+OLIVR is the software and database system used by Oregon DMV and
+its partners
+Accomplishments:
+	Quickly acclimated to the proprietary, ideosyncratic, and largely undocumented development
+		environment
+	Learned SQL and SQL Server Management Studio from the ground up
+	Started contributing changes to production
+
 ___Autodesk___
-Principal Engineer(April 2023 - Present)
+Principal Engineer(April 2023 - April 2025)
 Senior Software Engineer(April 2021 - April 2023)
 Software Engineer(January 2014 - April 2021)
 Contractor(November 2012 - January 2014)
 Intern(Summer 2011, Summer 2010)
 
-Weave MUI Toolkit(December 2022 to present)
+Weave MUI Toolkit(December 2022 to April 2025)
 Weave is Autodesk's official design system
 Accomplishments:
-	Independently built the Jenkins CI/CD system for automating building, testing (including visual regression testing), deploying a Storybook to GitHub pages, versioning, and publishing to our internal NPM registry
-	Managed the release process for a team of several dozen people, most of whom lived outside the US, across many timezones
+	Independently built the Jenkins CI/CD pipeline for automating building, unit testing, visual
+		regression testing, deploying a Storybook to GitHub pages, versioning, and publishing to
+		our internal NPM registry
+	Managed the release process for a team of several dozen people, most of whom lived outside the
+		US, across many timezones
 	Mentored junior developers/interns working on the project
 	Wrote the original documentation that became the "getting started" guide
-	Adopted the library early and integrated it into a major UI component in a customer facing application
+	Adopted the library early and integrated it into a major UI component in a customer facing
+		application
 	Evangelized adoption of the toolkit through several technical presentations
 
-Notification Center(On and off since April 2020 to present)
+Notification Center(On and off from April 2020 to April 2025)
 The notification center presents, manages, and saves passive pop-up and flyout notifications
 Accomplishments:
 	Acted as the lead (and often sole) developer from project conception to delivery
 	Leveraged React inside a desktop application by using an embedded browser
-	Defined and utilized an API for communication between JavaScript and C++
-	Developed a system that allows custom messaging to any/all users at will based on a JSON Schema for notifications stored in S3
-	Maintained the project over several years, through multiple UI libraries and React versions (including migrating from class based to functional components)
+	(QtWebEngine) Defined and utilized an API for custom communication between JavaScript and C++
+	Developed a system that allows custom messaging to any/all users at will based on a JSON Schema
+		for notifications stored in S3
+	Maintained the project over several years, through multiple UI libraries and React versions
+		(including migrating from class based to functional components)
 	Formally mentored an intern on the project who was then hired and is now a project lead
 
-Innersourced OpenTracing Library(Early 2018 to October 2020 with minor maintenance since)
-Tracing is the process of tagging and following operations as they flow through a distributed system
+Innersourced OpenTracing Library (Early 2018 to October 2020)
+Tracing is the process of tagging and following operations as they flow through a distributed
+	system
 Accomplishments:
 	Defined architecture and structure for the library
 	Wrote most of the core code
 	Designed and coded an automated test suite and integrated it with our Jenkins pipeline
 	Refactored the library to be consumable from Node.js or a browser using Webpack
 
-Fusion(February 2016 - present)
+Fusion(February 2016 - April 2025)
 Fusion is a 3D parametric CAD, CAM, and simulation desktop application
 Accomplishments:
 	Created several embedded browser UI widgets using Qt and QtWebEngine
-	Worked on improving offline caching, unified logging, synthetic monitoring, and the thundering herd problem
+	Worked on improving offline caching, unified logging, synthetic monitoring, and the thundering
+		herd problem
 	Formally mentored a college summer intern
 
 Configurator 360 Web and iPad Clients(November 2012 - February 2016)
@@ -77,8 +101,8 @@ Configurator 360 was a design configurator for the parametric CAD software Inven
 Accomplishments:
 	Prototyped a new UI based on AngularJS that became a major component of our app
 	Used three.js to create a model positioning and rotation tool
-	Worked server side with ASP.NET MVC 5
-	As the lead (and usually sole) developer of the iPad app, followed the project from conception through publishing on the Apple app store and maintenance
+	As the lead (and usually sole) developer of the iPad app, followed the project from conception
+		through publishing on the Apple app store and maintenance
 	Wrote an STL file parser to load 3D models
 
 ===Education===
