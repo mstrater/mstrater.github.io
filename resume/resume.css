@@ -40,16 +40,18 @@ a:hover {
 	box-shadow: 0.5rem 0.5rem 0.5rem 0.2rem rgba(0, 0, 0, 0.2);
 }
 
-#breadcrumb {
+.navContent {
 	position: absolute;
-	left: 0;
+	font-size: min(1rem, 4.1vw);
 	top: -2rem;
 }
 
+#breadcrumb {
+	left: 0;
+}
+
 #formatLinks {
-	position: absolute;
 	right: 0;
-	top: -2rem;
 }
 
 /* The header links should mostly look like normal links */
@@ -68,14 +70,14 @@ header {
 }
 
 header img {
-	height: 5rem;
-	width: 5rem;
-	margin: 1rem 1rem 1rem 0;
+	height: min(5rem, 10vw);
+	margin: 1rem min(1rem, 2vw) 1rem 0;
 }
 
 header h1 {
-	font-size: 3.5rem;
+	font-size: min(3.5rem, 10vw);
 	margin: 1rem 0;
+	text-wrap: nowrap;
 }
 
 header #space {
@@ -160,6 +162,59 @@ ul li ul li {
 	margin-left: 1rem;
 }
 
+@media (width <=59rem) {
+
+	html,
+	body {
+		background-color: #fff;
+	}
+
+	.navContent {
+		top: 0.5rem;
+	}
+
+	#breadcrumb {
+		left: 0.5rem;
+	}
+
+	#formatLinks {
+		right: 0.5rem;
+	}
+
+	header {
+		display: block;
+		align-items: unset;
+		margin-top: 0.5rem;
+	}
+
+	header img {
+		vertical-align: middle;
+	}
+
+	header h1 {
+		display: inline;
+		vertical-align: middle;
+	}
+
+	#contactInfo {
+		text-align: left;
+	}
+
+	#resume {
+		margin: 0;
+		padding: 1rem;
+		box-shadow: none;
+	}
+
+	.rightMargin {
+		margin-right: 0;
+	}
+
+	.leftMargin {
+		margin-left: 1rem;
+	}
+}
+
 @media print {
 	* {
 		/* Force background images to render when printing */
@@ -196,12 +251,20 @@ ul li ul li {
 		break-after: page;
 	}
 
-	/* Uncomment this to remove link underline in most cases */
-	/* Useful for creating a pdf intended for actual print */
-	/*
-	a:link { text-decoration: none; }
-	a:visited { text-decoration: none; }
-	a:hover { text-decoration: none; }
-	a:active { text-decoration: none; }
-	*/
+	/* Remove link underline in most cases for printing to pdf */
+	a:link {
+		text-decoration: none;
+	}
+
+	a:visited {
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	a:active {
+		text-decoration: none;
+	}
 }
