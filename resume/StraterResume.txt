@@ -2,13 +2,12 @@ Max Strater
 max.strater@gmail.com
 https://www.maxstrater.com
 (503) 841-1149
-Portland, OR
+Portland, OR 97239
 
 ===Summary===
 Versatile, team-oriented software engineer with well over 10 years of professional experience.
 Passionate about modern web development, mentoring junior engineers, and writing reliable,
-maintainable code. Highly skilled at UI development and bridging the gap between designers and
-coders. Proficient across all stages of the software development lifecycle in both web and desktop
+maintainable code. Proficient across all stages of the software development lifecycle in both web and desktop
 applications.
 
 ===Technical Skills===
@@ -16,14 +15,15 @@ JavaScript,
 Node.js/npm,
 TypeScript,
 React,
+SQL Server Management Studio,
+Git/GitHub,
+C# .NET,
+Python,
+C++,
 MUI,
 Lerna,
 Nx,
 Playwright,
-Git/GitHub,
-Python,
-SQL Server Management Studio
-C++,
 Jenkins,
 Docker,
 Qt,
@@ -34,17 +34,17 @@ Jira
 
 ===Experience===
 ___Oregon Department of Transportation___
-Information Systems Specialist 6 (April 2025 - July 2025)
-Affected by the seniority-based 2025 ODOT layoffs
+Information Systems Specialist 6 (April 2025 - Present)
 
 Oregon DMV Application Development
 OLIVR is the software and database system used by Oregon DMV and
 its partners
 Accomplishments:
-	Quickly acclimated to the proprietary, ideosyncratic, and largely undocumented development
-		environment
+	Quickly acclimated to the proprietary, idiosyncratic, and largely undocumented
+		development environment
 	Learned SQL and SQL Server Management Studio from the ground up
 	Started contributing changes to production
+	Converted VB.NET projects into C# for a major system upgrade
 
 ___Autodesk___
 Principal Engineer(April 2023 - April 2025)
@@ -92,8 +92,8 @@ Fusion(February 2016 - April 2025)
 Fusion is a 3D parametric CAD, CAM, and simulation desktop application
 Accomplishments:
 	Created several embedded browser UI widgets using Qt and QtWebEngine
-	Worked on improving offline caching, unified logging, synthetic monitoring, and the thundering
-		herd problem
+	Worked on improving offline caching, unified logging, synthetic monitoring, and safeguarding
+		against the thundering herd problem
 	Formally mentored a college summer intern
 
 Configurator 360 Web and iPad Clients(November 2012 - February 2016)
